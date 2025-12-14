@@ -35,7 +35,6 @@ Creates a new `AlwatrNotifier` instance.
 **Parameters:**
 
 - `config`: `AlwatrNotifierConfig` - The configuration for the notifier.
-
   - `apiUrl`: `string` - The API URL for the notifier service. (default: 'https//notifier.alwatr.ir')
   - `accessToken`: `string` - The access token for the notifier service.
   - `categoryId`: `string` - The category ID for the notification. (default: 'demo')
@@ -60,7 +59,6 @@ Sends a notification to the Alwatr Notifier service.
 - `message`: `string` - The message to send.
 
 - `option`: `NotifyOption` - Optional parameters for the notification.
-
   - `categoryId`: `string` - The category ID for the notification.
   - `markdown`: `boolean` - Whether to send the message in markdown format.
   - `fetchOption`: `Partial<FetchOptions>` - Fetch options for the API request.

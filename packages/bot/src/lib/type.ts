@@ -12,5 +12,5 @@ export type User = {
     symphonyInterest: boolean;
     symphonyGroup: boolean;
     symphonyPaid: boolean;
-  }
+  };
 };

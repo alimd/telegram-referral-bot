@@ -252,7 +252,10 @@ export const messages = {
 
 جهت تکمیل ثبت‌نام در این دوره و پرداخت نهایی از طریق کلید زیر اقدام کنین
 `,
-      keyboard: new InlineKeyboard().url('تکمیل ثبت‌نام در سمفونی دونفره 🎵', 'https://wesun.school/coaching/symphony/#main-cta'),
+      keyboard: new InlineKeyboard().url(
+        'تکمیل ثبت‌نام در سمفونی دونفره 🎵',
+        'https://wesun.school/coaching/symphony/#main-cta',
+      ),
     },
   ] as MsgItem[],
 

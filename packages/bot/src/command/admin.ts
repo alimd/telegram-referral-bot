@@ -299,11 +299,14 @@ bot.command('pay', (ctx) => {
       });
     }
     else {
-      void ctx.reply('آبجی برای کدوم کاربر می‌خوای پرداخت بزنی خب؟! 🤔\nلطفا به پیام فوروارد شده از اون کاربر رو ریپلای کن.', {
-        reply_parameters: {
-          message_id: message!.message_id,
+      void ctx.reply(
+        'آبجی برای کدوم کاربر می‌خوای پرداخت بزنی خب؟! 🤔\nلطفا به پیام فوروارد شده از اون کاربر رو ریپلای کن.',
+        {
+          reply_parameters: {
+            message_id: message!.message_id,
+          },
         },
-      });
+      );
     }
     return;
   }
