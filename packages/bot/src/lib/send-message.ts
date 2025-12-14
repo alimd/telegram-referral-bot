@@ -1,4 +1,4 @@
-import {delay} from 'alwatr/nanolib';
+import {delay} from '@alwatr/nanolib';
 
 import {bot} from './bot.js';
 import {logger} from './logger.js';

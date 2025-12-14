@@ -1,4 +1,4 @@
-import {createLogger} from 'alwatr/nanolib';
+import {createLogger} from '@alwatr/nanolib';
 
 import {config} from './config.js';
 import {userCollection} from './lib/users-collection.js';

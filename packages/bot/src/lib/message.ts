@@ -2,7 +2,7 @@ import {InlineKeyboard, Keyboard} from 'grammy';
 
 import {mainMenu} from './menu.js';
 
-import type {Duration} from 'alwatr/nanolib';
+import type {Duration} from '@alwatr/nanolib';
 import type {InlineKeyboardMarkup, ParseMode, ReplyKeyboardMarkup} from 'grammy/types';
 
 export type MsgItem =

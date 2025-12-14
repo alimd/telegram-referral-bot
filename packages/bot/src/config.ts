@@ -1,5 +1,5 @@
-import {getEnv} from 'alwatr/nanolib/node';
-import {Region, StoreFileType, type AlwatrNitrobaseConfig, type StoreFileStat} from 'alwatr/nitrobase';
+import {getEnv} from '@alwatr/nanolib/node';
+import {Region, StoreFileType, type AlwatrNitrobaseConfig, type StoreFileStat} from '@alwatr/nitrobase';
 
 import {logger} from './lib/logger.js';
 

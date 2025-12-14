@@ -1,4 +1,4 @@
-import {randPick} from 'alwatr/nanolib';
+import {randPick} from '@alwatr/nanolib';
 import {Context, GrammyError, type CommandContext} from 'grammy';
 
 import {config} from '../config.js';
@@ -103,7 +103,7 @@ bot.command('admin_stats', (ctx) => {
 پیوسته از طریق دعوت: ${stats.joinedViaReferral}
 پیوسته از طریق دعوت (غیر اهلی): ${stats.joinedViaReferralNoWesun}
 بدون شماره تلفن: ${stats.withoutPhone}
-بلاک کرده‌اند: ${stats.blocked}    
+بلاک کرده‌اند: ${stats.blocked}
 هنوز دعوت نکرده‌اند: ${stats.withoutReferrals}
 اهلی: ${stats.wesunMembers}
 عضو گروه: ${stats.symphonyGroup}

@@ -1,4 +1,4 @@
-import {createLogger} from 'alwatr/nanolib';
+import {createLogger} from '@alwatr/nanolib';
 
 import {config} from './config.js';
 import {nitrobase} from './lib/nitrobase.js';

@@ -1,4 +1,4 @@
-import {toNumber} from 'alwatr/nanolib';
+import {toNumber} from '@alwatr/nanolib';
 
 import {bot} from '../lib/bot.js';
 import {logger} from '../lib/logger.js';
