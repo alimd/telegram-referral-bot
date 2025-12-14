@@ -35,8 +35,7 @@ dist
 *.tgz
 
 # dotenv environment variables file
-.env
-wesun-bot.env
+*.env
 _data
 
 .tmp
