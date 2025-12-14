@@ -1,7 +1,7 @@
 {
   "name": "bot",
   "description": "Alwatr Telegram Notify Microservice, Distributed simple and fast telegram notify nanoservice.",
-  "version": "1.0.0-rc",
+  "version": "v0.1.0",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "bugs": "https://github.com/Alwatr/notifier/issues",
   "dependencies": {
