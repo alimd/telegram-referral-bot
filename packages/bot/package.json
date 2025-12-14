@@ -8,9 +8,9 @@
     "grammy": "^1.38.4"
   },
   "devDependencies": {
-    "@alwatr/nanolib": "^7.2.0",
-    "@alwatr/nitrobase": "^7.10.0",
-    "@types/node": "^24.10.3",
+    "@alwatr/nanolib": "^7.3.4",
+    "@alwatr/nitrobase": "^7.10.1",
+    "@types/node": "^24.10.4",
     "typescript": "^5.9.3"
   },
   "engines": {

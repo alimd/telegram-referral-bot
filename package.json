@@ -3,7 +3,7 @@
   "description": "Alwatr Notifier Microservice",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "devDependencies": {
-    "@alwatr/nanolib": "^7.2.0",
+    "@alwatr/nanolib": "^7.3.4",
     "@lerna-lite/changed": "^4.10.2",
     "@lerna-lite/cli": "^4.10.2",
     "@lerna-lite/diff": "^4.10.2",
