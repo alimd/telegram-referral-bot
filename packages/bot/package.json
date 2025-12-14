@@ -48,6 +48,7 @@
     "clean": "rm -rfv dist *.tsbuildinfo",
     "cw": "yarn run clean && yarn run watch",
     "d": "yarn run build:es && DEBUG=1 yarn node",
+    "export": "yarn node ./export-csv.mjs",
     "initialize": "yarn build && initializeMode=1 yarn node --enable-source-maps dist/initialize.mjs",
     "migration": "yarn build && yarn node --enable-source-maps dist/migration.mjs",
     "s": "yarn run start",
@@ -55,8 +56,7 @@
     "serve:debug": "yarn node --inspect --enable-source-maps dist/start.mjs",
     "start": "yarn build && yarn serve",
     "w": "yarn run watch",
-    "watch": "yarn run build --watch",
-    "export": "yarn node ./export-csv.mjs"
+    "watch": "yarn run build --watch"
   },
   "type": "module"
 }
