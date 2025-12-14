@@ -31,7 +31,7 @@
     "target": "node22",
     "splitting": true
   },
-  "prettier": "@alwatr/nanolib/prettier",
+  "prettier": "@alwatr/nanolib/prettier-config",
   "private": true,
   "repository": {
     "type": "git",

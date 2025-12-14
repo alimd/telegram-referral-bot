@@ -1,6 +1,6 @@
 {
   "name": "telegram-referral-bot",
-  "description": "Alwatr Notifier Microservice",
+  "description": "Telegram Referral Bot!",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "devDependencies": {
     "@alwatr/nanolib": "^7.3.4",
@@ -32,7 +32,7 @@
   "packageManager": "yarn@4.12.0",
   "private": true,
   "repository": "https://github.com/Alwatr/notifier",
-  "prettier": "@alwatr/nanolib/prettier",
+  "prettier": "@alwatr/nanolib/prettier-config",
   "scripts": {
     "b": "yarn run build",
     "build": "lerna run build",
