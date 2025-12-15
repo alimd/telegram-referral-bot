@@ -16,11 +16,11 @@ on:
       - created
 
 env:
-  USER: Alwatr
+  USER: alimd
 
 jobs:
   build:
-    if: github.repository_owner == 'Alwatr'
+    if: github.repository_owner == 'alimd' || github.repository_owner == 'Alwatr'
 
     name: Build & Publish Containers
     runs-on: ubuntu-latest
