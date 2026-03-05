@@ -5,12 +5,12 @@
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "bugs": "https://github.com/Alwatr/notifier/issues",
   "dependencies": {
-    "grammy": "^1.38.4"
+    "grammy": "^1.41.1"
   },
   "devDependencies": {
-    "@alwatr/nanolib": "^7.3.4",
+    "@alwatr/nanolib": "^7.3.6",
     "@alwatr/nitrobase": "^7.10.1",
-    "@types/node": "^24.10.4",
+    "@types/node": "^24.11.0",
     "typescript": "^5.9.3"
   },
   "engines": {
